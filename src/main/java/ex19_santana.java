@@ -26,7 +26,7 @@ public class ex19_santana
         double n2 = Double.parseDouble(w);
 
         double bmi = ((n2 / (n1 * n1))*703.00);
-        System.out.println("Your BMI is "+Math.round(bmi*100.0)/100.0+".");
+        System.out.printf("Your BMI is %.2f.",bmi);
 
         if (bmi >= 18.5 && bmi <= 25.0)
         {
